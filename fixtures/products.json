@@ -1,0 +1,332 @@
+[
+  {
+    "model": "segmentation.product",
+    "pk": 1,
+    "fields": {
+      "name": "Alpha Soap",
+      "price": 377.5,
+      "size": 50,
+      "category": "Household",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 2,
+    "fields": {
+      "name": "Beta Shampoo",
+      "price": 1204.04,
+      "size": 200,
+      "category": "Personal Care",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 3,
+    "fields": {
+      "name": "Gamma Oil",
+      "price": 549.57,
+      "size": 200,
+      "category": "Household",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 4,
+    "fields": {
+      "name": "Delta Cream",
+      "price": 599.75,
+      "size": 200,
+      "category": "Electronics Accessories",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 5,
+    "fields": {
+      "name": "Epsilon Lotion",
+      "price": 507.15,
+      "size": 150,
+      "category": "Household",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 6,
+    "fields": {
+      "name": "Zeta Spray",
+      "price": 233.49,
+      "size": 100,
+      "category": "Groceries",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 7,
+    "fields": {
+      "name": "Eta Gel",
+      "price": 788.22,
+      "size": 500,
+      "category": "Electronics Accessories",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 8,
+    "fields": {
+      "name": "Theta Paste",
+      "price": 1027.17,
+      "size": 500,
+      "category": "Groceries",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 9,
+    "fields": {
+      "name": "Iota Powder",
+      "price": 518.7,
+      "size": 150,
+      "category": "Electronics Accessories",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 10,
+    "fields": {
+      "name": "Kappa Spray",
+      "price": 973.86,
+      "size": 750,
+      "category": "Household",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 11,
+    "fields": {
+      "name": "Lambda Serum",
+      "price": 1436.9,
+      "size": 250,
+      "category": "Personal Care",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 12,
+    "fields": {
+      "name": "Mu Cleanser",
+      "price": 1325.2,
+      "size": 500,
+      "category": "Electronics Accessories",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 13,
+    "fields": {
+      "name": "Nu Mask",
+      "price": 968.93,
+      "size": 500,
+      "category": "Household",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 14,
+    "fields": {
+      "name": "Xi Balm",
+      "price": 925.11,
+      "size": 150,
+      "category": "Electronics Accessories",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 15,
+    "fields": {
+      "name": "Omicron Paste",
+      "price": 103.64,
+      "size": 100,
+      "category": "Electronics Accessories",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 16,
+    "fields": {
+      "name": "Pi Wash",
+      "price": 1167.7,
+      "size": 150,
+      "category": "Personal Care",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 17,
+    "fields": {
+      "name": "Rho Tonic",
+      "price": 1460.92,
+      "size": 150,
+      "category": "Household",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 18,
+    "fields": {
+      "name": "Sigma Mist",
+      "price": 761.72,
+      "size": 500,
+      "category": "Household",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 19,
+    "fields": {
+      "name": "Tau Rub",
+      "price": 805.39,
+      "size": 750,
+      "category": "Electronics Accessories",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 20,
+    "fields": {
+      "name": "Upsilon Drops",
+      "price": 451.74,
+      "size": 200,
+      "category": "Household",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 21,
+    "fields": {
+      "name": "Phi Bar",
+      "price": 1261.95,
+      "size": 500,
+      "category": "Personal Care",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 22,
+    "fields": {
+      "name": "Chi Liquid",
+      "price": 787.63,
+      "size": 50,
+      "category": "Groceries",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 23,
+    "fields": {
+      "name": "Psi Concentrate",
+      "price": 1319.68,
+      "size": 250,
+      "category": "Personal Care",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 24,
+    "fields": {
+      "name": "Omega Blend",
+      "price": 542.79,
+      "size": 1000,
+      "category": "Groceries",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 25,
+    "fields": {
+      "name": "Aqua Fresh",
+      "price": 75.53,
+      "size": 1000,
+      "category": "Electronics Accessories",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 26,
+    "fields": {
+      "name": "Glow Plus",
+      "price": 20.48,
+      "size": 500,
+      "category": "Groceries",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 27,
+    "fields": {
+      "name": "Silk Touch",
+      "price": 168.43,
+      "size": 1000,
+      "category": "Electronics Accessories",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 28,
+    "fields": {
+      "name": "Pro Clean",
+      "price": 919.1,
+      "size": 250,
+      "category": "Household",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 29,
+    "fields": {
+      "name": "Daily Care",
+      "price": 64.12,
+      "size": 150,
+      "category": "Household",
+      "image_url": ""
+    }
+  },
+  {
+    "model": "segmentation.product",
+    "pk": 30,
+    "fields": {
+      "name": "Ultra Soft",
+      "price": 1399.93,
+      "size": 250,
+      "category": "Electronics Accessories",
+      "image_url": ""
+    }
+  }
+]

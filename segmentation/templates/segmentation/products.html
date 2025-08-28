@@ -1,0 +1,80 @@
+{% load static %}
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Product Segmentation</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body class="bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm mb-4">
+    <div class="container">
+      <a class="navbar-brand" href="#">Product Segmentation</a>
+    </div>
+  </nav>
+  <div class="container">
+    <form class="row g-3 mb-3">
+      <div class="col-auto">
+        <label class="form-label">Price segments</label>
+        <input type="number" name="price_segments" value="{{ price_segments }}" class="form-control" min="1">
+      </div>
+      <div class="col-auto">
+        <label class="form-label">Size segments</label>
+        <input type="number" name="size_segments" value="{{ size_segments }}" class="form-control" min="1">
+      </div>
+      <div class="col-auto align-self-end">
+        <button class="btn btn-primary">Apply</button>
+      </div>
+    </form>
+
+    <h5>Price Buckets</h5>
+    <div class="row">
+      {% for bucket in price_buckets %}
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h6 class="card-title">₹{{ bucket.range.0 }} - ₹{{ bucket.range.1 }}</h6>
+            <p class="card-text">{{ bucket.count }} products</p>
+            <a href="#list-{{ forloop.counter }}" class="stretched-link">View</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <h5>Size Buckets</h5>
+    <div class="row">
+      {% for bucket in size_buckets %}
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h6 class="card-title">{{ bucket.range.0 }} - {{ bucket.range.1 }}</h6>
+            <p class="card-text">{{ bucket.count }} products</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <hr>
+    <h5 id="list">All Products ({{ products.count }})</h5>
+    <div class="row">
+      {% for p in products %}
+      <div class="col-md-4">
+        <div class="card mb-3">
+          {% if p.image_url %}
+          <img src="{{ p.image_url }}" class="card-img-top" alt="{{ p.name }}">
+          {% endif %}
+          <div class="card-body">
+            <h6 class="card-title">{{ p.name }}</h6>
+            <p class="card-text">₹{{ p.price }} • Size: {{ p.size }} • {{ p.category }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</body>
+</html>

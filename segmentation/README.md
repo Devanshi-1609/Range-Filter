@@ -1,0 +1,1 @@
+Segmentation app: Product model and segmentation views.
